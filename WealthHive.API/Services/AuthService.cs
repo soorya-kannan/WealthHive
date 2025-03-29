@@ -48,7 +48,7 @@ namespace WealthHive.API.Services
                 Username = username,
                 Name = name,
                 FamilyName = familyName,
-                Role = UserRole.Member,
+                Role = UserRole.Admin,
                 Status = UserStatus.Pending,
                 PasswordHash = string.Empty // Initialize with empty string since it's required
             };
